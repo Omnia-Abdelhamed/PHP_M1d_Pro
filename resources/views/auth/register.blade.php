@@ -71,7 +71,7 @@
             <form
               class="form-horizontal mt-3"
               id="loginform"
-              action=""
+              action="{{ route('handleRegister') }}"
               method="post"
               novalidate
             >

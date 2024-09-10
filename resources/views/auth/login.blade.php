@@ -71,7 +71,7 @@
             <form
               class="form-horizontal mt-3"
               id="loginform"
-              action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>"
+              action="{{ route('handleLogin') }}"
               method="post"
             >
             @csrf
