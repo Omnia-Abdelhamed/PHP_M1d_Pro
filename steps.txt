@@ -1,0 +1,16 @@
+select * from students
+innerjoin departments
+on students.dept_id = departments.dept_num
+
+childtable => students
+ownerTable => departments
+fk=>dept_id
+ownerKey=> dept_num
+
+
+department_id
+
+department_primary
+dept_fk
+
+
